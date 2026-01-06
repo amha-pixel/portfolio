@@ -117,7 +117,6 @@ nav ul {
     .tema-oversigt {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr; 
-      grid-template-rows: auto auto auto;
       gap: 24px;
       align-items: start;
   
@@ -163,7 +162,6 @@ nav ul {
     .hero { 
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: auto auto auto;
       gap: 24px;
       align-items: start;
     }
