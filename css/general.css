@@ -1,0 +1,121 @@
+/* Fonts */
+
+@font-face {
+  font-family: "Blisey";
+  src: url("../fonts/Blisey.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base */
+body {
+  font-family: "Lato", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #000;
+}
+
+/* Typografi */
+h1 {
+font-family: "Blisey", serif;
+  font-size: 2.5rem;
+  color: #29F952;
+}
+
+h2 {
+    font-family: "Lato", Arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #d9d9d9;
+}
+
+h3 {
+    font-family: "Blisey", serif;
+      font-size: 1.5rem;
+      color: #29F952;
+    }
+
+p {
+  font-size: 0.9rem;
+  color: #d9d9d9;
+}
+
+/* Img */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* knapper */
+  .btn-transparent {
+    background-color: transparent;
+    color: #29F952;
+    border: 1px solid #29F952;
+  
+    padding: 8px 20px;
+  
+    font-family: "Blisey", serif;
+    font-size: 0.9rem;
+  
+    border-radius: 6px;
+    text-align: center;
+  
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .btn-green {
+    background-color: #29F952;
+    color: #000;
+    border: 1px solid #29F952;
+  
+    padding: 8px 20px;
+  
+    font-family: "Blisey", serif;
+    font-size: 0.9rem;
+  
+    border-radius: 6px;
+    text-align: center;
+  
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .btn-menu {
+    background-color: transparent;
+    color: #29F952;
+    border: 1px solid #29F952;
+  
+    padding: 8px 20px;
+    margin: 10px 10px; 
+  
+    font-family: "Blisey", serif;
+    font-size: 0.8rem;
+  
+    border-radius: 6px;
+    text-align: center;
+  
+    display: inline-block;
+    text-decoration: none;
+  }
