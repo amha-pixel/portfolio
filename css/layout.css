@@ -100,12 +100,9 @@ footer p {
   .tema-oversigt h3 {
     margin: 0;
     line-height: 1.3;
+    font-size: 1.8rem;
     overflow-wrap: break-word;
     word-wrap: break-word;
-  }
-
-  .tema-oversigt h3 {
-    font-size: 1.8rem;
   }
   
   .tema-oversigt img {
@@ -116,7 +113,7 @@ footer p {
   .tema-oversigt .btn-green {
     align-self: flex-start;
     width: auto;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 
   /* regel så ordet brugergræseflade også bryder i desktopformat */
@@ -149,7 +146,7 @@ footer p {
   
   .tema-links a {
     width: auto;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 
   .tema-titel h1 {
@@ -174,6 +171,14 @@ footer p {
     line-height: 1.3;
     color: #d9d9d9;
     margin-top: 40px;
+  }
+  
+  .tema-indhold p {
+    line-height: 1.6;
+  }
+
+  .tema-indhold p {
+    margin: 1.2rem 0;
   }
 
   /* regler til cv siden*/
